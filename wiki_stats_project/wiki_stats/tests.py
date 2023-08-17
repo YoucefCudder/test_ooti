@@ -10,7 +10,6 @@ class TestServices(TestCase):
             result = fetch_summary(wiki)
             self.assertEqual(type(result), str)
             self.assertIn('Python', result) # check if the string is in the result
-            self.assertTrue('Python' in result) # check if the string is in the result
 
 
         def test_interpret_summary(self):
