@@ -28,7 +28,7 @@ def send_alert():
         send_mail(
             'Alert: High percentage of big words',
             'More than 20% of words are 5+ letters.',
-            'from@example.com',
+            'you.aouali@gmail.com',
             ['to@example.com'],
             fail_silently=False,
         )
