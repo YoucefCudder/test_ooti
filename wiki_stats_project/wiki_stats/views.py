@@ -8,7 +8,6 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from .services import fetch_summary, interpret_summary
 
-# create a function based view with input request.GET.get('title') and return results of service in previous steps
 
 @api_view(['GET'])
 def get(request):
